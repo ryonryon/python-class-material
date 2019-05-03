@@ -66,8 +66,4 @@ def main_menu():
             print("Enter the number again!\n")
 
 
-def controller():
-    main_menu()
-
-
-controller()
+main_menu()
