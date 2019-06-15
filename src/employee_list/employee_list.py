@@ -1,7 +1,7 @@
-import employee
+import Employee
 
 
-class employee_list():
+class EmployeeList():
 
     def __init__(self):
         self.emp_list = []

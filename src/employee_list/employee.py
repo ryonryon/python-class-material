@@ -1,5 +1,5 @@
 
-class employee():
+class Employee():
     def __init__(self, name, place, phone="", home=""):
         self.name = name
         self.phone = phone
