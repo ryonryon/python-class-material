@@ -15,10 +15,10 @@ def delete_employee(emp_list):
     while True:
 
         emp_list.show_list()
-        emp_num = int(input("Enter the number you want to delete: "))
+        emp_number = int(input("Enter the number you want to delete: "))
 
-        if 0 <= emp_num and emp_num < len(emp_list.get_emp_list()):
-            emp_list.delete_emp(emp_num)
+        if 0 <= emp_number and emp_number < len(emp_list.get_emp_list()):
+            emp_list.delete_emp(emp_number)
             break
 
         print("Enter the valid number!")
@@ -39,7 +39,7 @@ def update_employee(emp_list):
 
 
 def main_menu():
-    emp_list = employee_list.employee_list()
+    emp_list = employee_list.EmployeeList()
 
     while True:
         print("*==================================*")

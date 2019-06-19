@@ -23,7 +23,7 @@ class EmployeeList():
         phone = input("phone: ")
         home = input("home: ")
         place = input("place: ")
-        emp = employee.employee(name, place, phone, home)
+        emp = employee.Employee(name, place, phone, home)
         self.emp_list.append(emp)
 
     def delete_emp(self, emp_num):
